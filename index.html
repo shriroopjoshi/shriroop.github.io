@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <style>
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 </style>
@@ -64,21 +65,6 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
             <div class="w3-container w3-center w3-round-xlarge w3-indigo" style="width:65%">65%</div>
           </div>
           <br>
-            <!--
-          <p class="w3-large w3-text-theme"><b><i class="fa fa-file fa-fw w3-margin-right w3-text-indigo"></i>Projects</b></p>
-          <p>English</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-indigo" style="height:24px;width:100%"></div>
-          </div>
-          <p>Spanish</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-indigo" style="height:24px;width:55%"></div>
-          </div>
-          <p>German</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-indigo" style="height:24px;width:25%"></div>
-          </div>
--->
           <br>
         </div>
           
@@ -135,17 +121,47 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     
         <!-- Projects -->
     <div class="w3-container w3-card-2 w3-white w3-hover-opacity" id="projectdiv">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-file fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Projects</h2>
         <div class="w3-container">
-          <h5 class="w3-opacity" style="float: left">See what I work on</h5>
-        <i class="fa fa-arrow-right w3-hover-opacity" style="font-size:24px; float: right; color:grey"></i><p></p><br>
+          <h5 class="w3-opacity" style="float: left; margin-top:30px; margin-bottom:20px;">See what I work on</h5>
+        <i class="fa fa-arrow-right w3-hover-opacity" style="font-size:24px; float: right; color:grey; padding-top: 8px; margin-top:20px; margin-bottom:20px;"></i><br>
         </div>
       </div>
 
     <!-- End Right Column -->
     </div>
       
-      <div class="w3-twothird" id="projectsdiv">
+      <div class="w3-twothird" id="projectsdiv" style="display: none;">
+        <div class="w3-container w3-card-2 w3-white w3-margin-bottom">
+          <!-- Work Experience-->
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-file fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Projects</h2>
+        <div class="w3-container">
+          <h6 class="w3-opacity"><b>Distributed mutual exclusion</b></h6>
+            <p>Developed a program in Java which demonstrates implementation of <a href="http://dl.acm.org/citation.cfm?id=358537" target="_blank">Ricart-Agrawala</a> distributed mutual exclusion algorithm. Also implemented <a href="http://dl.acm.org/citation.cfm?id=940975" target="_blank">Roucairol-Carvalho</a> optimization and showed the number of messages for a process to enter critical section reduces. Tested this program on 20 nodes.</p>
+          <p class="w3-text-grey">Domain: [Distributed Systems] [Operating Systems]</p>
+          <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Oct 2016 - <span class="w3-tag w3-indigo w3-round">Current</span></h6>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Software Engineer</b></h5>
+          <h6 class="w3-text-grey">Persistent Systems, Nagpur, India</h6>
+          <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2015 - Jul 2016</h6>
+            <p>Worked on development of various open source bigdata technologies in Hadoop ecosystem. Specific work includes development of <a href="http://hadoop.apache.org/" target="_blank">Hadoop</a> and <a href="http://titan.thinkaurelius.com/" target="_blank">TitanDB</a> for <a href="https://www.ibm.com/us-en/marketplace/ibm-open-platform" target="_blank">IBM IOP</a>. Also worked on IBM valueadds components - <a href="https://www.ibm.com/analytics/us/en/technology/big-sql/" target="_blank">BigSQL</a> and <a href="https://www.ibm.com/support/knowledgecenter/SSPT3X_4.1.0/com.ibm.swg.im.infosphere.biginsights.analyze.doc/doc/t_overview_bigr.html" target="_blank">BigR</a></p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Project Intern</b></h5>
+          <h6 class="w3-text-grey">Persistent Systems, Nagpur, India</h6>
+          <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2014 - Jan 2015</h6>
+          <p>Developed a web-app for online forms in Java Servlets to overcome then missing features in Google forms</p><br>
+        </div>
+      </div>
+          
+      <div class="w3-container w3-card-2 w3-white w3-hover-opacity" id="backdiv">
+        <div class="w3-container">
+        <i class="fa fa-arrow-left w3-hover-opacity" style="font-size:24px; float: left; color:grey; padding-top: 8px; margin-bottom: 20px; margin-top: 20px;"></i>
+        <h5 class="w3-text-grey" style="float: left; margin-left: 20px; margin-bottom:20px; margin-top:30px;">Back</h5><br>
+        </div>
+      </div>
       </div>
     
   <!-- End Grid -->
@@ -171,8 +187,15 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     <script>
         var d = document.getElementById("projectdiv");
         var b = document.getElementById("resumebtn");
+        var back = document.getElementById("backdiv");
         d.onclick = function() {
-            window.location.href = 'http://github.com/shriroopjoshi';
+            $('#projectsdiv').show();
+            $('#profilediv').hide();
+            // window.location.href = 'http://github.com/shriroopjoshi';
+        }
+        back.onclick = function() {
+            $('#profilediv').show();
+            $('#projectsdiv').hide();
         }
         b.onclick = function() {
             window.open('Resume.pdf');
