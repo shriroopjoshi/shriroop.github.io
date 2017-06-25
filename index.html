@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<head>
     <title>Shriroop Joshi | Profile</title>
     <meta charset="UTF-8">
     <meta name="description" content="Shriroop's profile">
@@ -13,6 +14,18 @@
     <style>
         html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     </style>
+<script>
+            // Google analytics code
+            
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-98860068-1', 'auto');
+          ga('send', 'pageview');
+</script>
+</head>
     <body class="w3-light-grey">
         <!-- Page Container -->
         <div class="w3-content w3-margin-top" style="max-width:1400px;">
@@ -24,7 +37,7 @@
                         <div class="w3-display-container">
                             <img src="pro-pic.jpg" style="width:100%" alt="Avatar">
                             <div class="w3-display-bottomleft w3-container w3-text-white">
-                                <h2>SHRIROOP JOSHI</h2>
+                                <h2 style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">SHRIROOP JOSHI</h2>
                             </div>
                         </div>
                         <br>
@@ -147,7 +160,7 @@
                         </div>
                         <div class="w3-container">
                             <h6 class="w3-opacity"><b>Cache design and optimization</b></h6>
-                            <p>Designed cache for X86 architecture with experimenting various parameters - CPU type, cache levels, L1D and L1I sizes, etc - and evaluated it against various benchmark tests. Optimized the cache to get maximum CPI. All the simulations are implemented on <a href="http://gem5.org/" target="_blank">gem5</a> simulator. Also, developed bash scripts for automating the process the process of sampling the data</p>
+                            <p>Designed cache for X86 architecture with experimenting various parameters - CPU type, cache levels, L1D and L1I sizes, etc - and evaluated it against various benchmark tests. Optimized the cache to get maximum CPI. All the simulations are implemented on <a href="http://gem5.org/" target="_blank">gem5</a> simulator. Also, developed bash scripts for automating the process of sampling the data</p>
                             <p class="w3-text-grey">Tags: <span class="w3-tag w3-indigo w3-round">Computer Architecture</span> <span class="w3-tag w3-indigo w3-round">C</span> <span class="w3-tag w3-indigo w3-round">bash</span> <span class="w3-tag w3-indigo w3-round">gem5</span></p>
                             <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2017</h6>
                             <hr>
@@ -188,7 +201,7 @@
                         </div>
                         <div class="w3-container">
                             <h6 class="w3-opacity"><b>Program evaluator</b></h6>
-                            <p>Developed a cloud based application which provides an interface for programming-competition. The front end is developed in JSP and Java servlets. It provides an code-editor, and an interface to turn in developed programs. The back-end is developed in C# .NET using <a href="https://sourceforge.net/projects/alchemi/" target="_blank">Alchemi</a>, a grid framework. This application downloads the programs submitted from web, compiles it and executes against provided testcases to give it a score</p>
+                            <p>Developed a cloud based application which provides an interface for programming-competition. The front end is developed in JSP and Java servlets. It provides a code-editor, and an interface to turn in developed programs. The back-end is developed in C# .NET using <a href="https://sourceforge.net/projects/alchemi/" target="_blank">Alchemi</a>, a grid framework. This application downloads the programs submitted from web, compiles them and executes against provided testcases to give each program a score</p>
                             <p class="w3-text-grey">Tags: <span class="w3-tag w3-indigo w3-round">Grid</span> <span class="w3-tag w3-indigo w3-round">Cloud</span> <span class="w3-tag w3-indigo w3-round">C#</span> <span class="w3-tag w3-indigo w3-round">JSP</span> <span class="w3-tag w3-indigo w3-round">Java servlets</span></p>
                             <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Dec 2014</h6>
                             <hr>
@@ -209,7 +222,7 @@
                         </div>
                         <div class="w3-container">
                             <h6 class="w3-opacity"><b>Automatic Question Generator</b></h6>
-                            <p>Developed a Java program which extracts gap-fill questions from an PDF based eBook, and creates a quiz. Also developed an Android app as an interface to solve the quiz. The program used principles of Natural Language Processing to extract questions and choices for answers, and uploads them over the server. The app downloads the questions from server, lets the user solve the quiz and uploads the score back to server.</p>
+                            <p>Developed a Java program which extracts gap-fill questions from a PDF based eBook, and creates a quiz. Also developed an Android app as an interface to solve the quiz. The program used principles of Natural Language Processing to extract questions and choices for answers, and uploads them over the server. The app downloads the questions from server, lets the user solve the quiz and uploads the score back to server.</p>
                             <p class="w3-text-grey">Tags: <span class="w3-tag w3-indigo w3-round">NLP</span> <span class="w3-tag w3-indigo w3-round">Java</span> <span class="w3-tag w3-indigo w3-round">Android</span></p>
                             <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Dec 2013</h6>
                             <br>
@@ -261,6 +274,8 @@
             b.onclick = function() {
                 window.open('Resume.pdf');
             }
+            
+
         </script>
     </body>
 </html>
