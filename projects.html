@@ -1,0 +1,95 @@
+<html>
+<head></head>
+<body>
+    <div class="w3-container w3-card-2 w3-white w3-margin-bottom">
+        <!-- projects -->
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-file fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Projects</h2>
+        <div class="w3-container">
+            <h6 class="w3-opacity"><b>Performance Optimization</b></h6>
+            <p>Implemented various algorithms - Cannon's matrix multiplication, Gaussian elimination for linear equations, Parallel sorting using regular sampling, Finite Difference method, etc - in OpenMP, OpenACC, MPI and their combinations, and compared their performance under huge load.</p>
+            <p class="w3-text-grey">Tags: <span class="w3-tag w3-indigo w3-round">Parallel processing</span> <span class="w3-tag w3-indigo w3-round">C/C++</span> <span class="w3-tag w3-indigo w3-round">OpenMP</span> <span class="w3-tag w3-indigo w3-round">OpenACC</span> <span class="w3-tag w3-indigo w3-round">MPI</span></p>
+            <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2017</h6>
+            <hr>
+        </div>
+        <div class="w3-container">
+            <div class="w3-container" style="padding: 0px;">
+                <h5 class="w3-opacity"  style="float: left;"><b>Distributed File System</b></h5>
+                <a href="https://github.com/shriroopjoshi/dfs/" target="_blank" style="float: right; color: indigo;"><i class="fa fa-github-square w3-hover-opacity" style="font-size:24px"></i></a>
+            </div>
+            <p>Developed a program in Java which acts as a file server. It co-ordinates with file server running on other sites and forms a part of the distributed file system. Used two-phase commit protocol for insert/update of files on the server. Allowed replication of files.</p>
+            <p class="w3-text-grey">Tags: <span class="w3-tag w3-indigo w3-round">Distributed Systems</span> <span class="w3-tag w3-indigo w3-round">Operating Systems</span> <span class="w3-tag w3-indigo w3-round">Java</span> <span class="w3-tag w3-indigo w3-round">Sockets</span></p>
+            <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Feb 2017</h6>
+            <hr>
+        </div>
+        <div class="w3-container">
+            <h6 class="w3-opacity"><b>Cache design and optimization</b></h6>
+            <p>Designed cache for X86 architecture with experimenting various parameters - CPU type, cache levels, L1D and L1I sizes, etc - and evaluated it against various benchmark tests. Optimized the cache to get maximum CPI. All the simulations are implemented on <a href="http://gem5.org/" target="_blank">gem5</a> simulator. Also, developed bash scripts for automating the process of sampling the data</p>
+            <p class="w3-text-grey">Tags: <span class="w3-tag w3-indigo w3-round">Computer Architecture</span> <span class="w3-tag w3-indigo w3-round">C</span> <span class="w3-tag w3-indigo w3-round">bash</span> <span class="w3-tag w3-indigo w3-round">gem5</span></p>
+            <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2017</h6>
+            <hr>
+        </div>
+        <div class="w3-container">
+            <div class="w3-container" style="padding-left: 0px;">
+                <h6 class="w3-opacity" style="float: left;"><b>Distributed mutual exclusion</b></h6>
+                <a href="https://github.com/shriroopjoshi/mutex/" target="_blank" style="float: right; color: indigo;"><i class="fa fa-github-square w3-hover-opacity" style="font-size:24px"></i></a>
+            </div>
+            <p>Developed a program in Java which demonstrates implementation of <a href="http://dl.acm.org/citation.cfm?id=358537" target="_blank">Ricart-Agrawala</a> distributed mutual exclusion algorithm. Also implemented <a href="http://dl.acm.org/citation.cfm?id=940975" target="_blank">Roucairol-Carvalho</a> optimization and showed the number of messages for a process to enter critical section reduces. Tested this program on 20 nodes.</p>
+            <p class="w3-text-grey">Tags: <span class="w3-tag w3-indigo w3-round">Distributed Systems</span> <span class="w3-tag w3-indigo w3-round">Operating Systems</span> <span class="w3-tag w3-indigo w3-round">Java</span> <span class="w3-tag w3-indigo w3-round">Sockets</span></p>
+            <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2017</h6>
+            <hr>
+        </div>
+        <div class="w3-container">
+            <h6 class="w3-opacity"><b>Video processing application</b></h6>
+            <p>Developed a video processing application in C/C++ using <a href="https://ffmpeg.org/" target="_blank">FFmpeg</a> library, and analyzed its performance uder various schedulers of LITMUS <sup>RT</sup>. <a href="http://www.litmus-rt.org/" target="_blank">LITMUS <sup>RT</sup></a> is a real-time extension of Linux kernel. I made a custom build of linux kernel after applying this patch. The video processing application was executed on various real-time schedulers included with LITMUS <sup>RT</sup> - PSN-EDF, GSN-EDF, C-EDF, P-FP, and R-RES</p>
+            <p class="w3-text-grey">Tags: <span class="w3-tag w3-indigo w3-round">Real Time Systems</span> <span class="w3-tag w3-indigo w3-round">FFmpeg</span> <span class="w3-tag w3-indigo w3-round">Schedulers</span> <span class="w3-tag w3-indigo w3-round">C/C++</span> <span class="w3-tag w3-indigo w3-round">Linux kernel</span></p>
+            <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Dec 2016</h6>
+            <hr>
+        </div>
+        <div class="w3-container">
+            <div class="w3-container" style="padding: 0px; padding">
+                <h6 class="w3-opacity" style="float: left;"><b>Secure Messaging application</b></h6>
+                <a href="https://github.com/shriroopjoshi/netsec/" target="_blank" style="float: right; color: indigo;"><i class="fa fa-github-square w3-hover-opacity" style="font-size:24px"></i></a>
+            </div>
+            <p>Developed a secure messaging application for peer-to-peer communucation in Java. Used Otway-Rees protocol for generating session keys for clients. The application includes a server implementation and client implementation. Used public key encryption for client-server communication, and private key for client-client communication</p>
+            <p class="w3-text-grey">Tags: <span class="w3-tag w3-indigo w3-round">Network</span> <span class="w3-tag w3-indigo w3-round">Security</span> <span class="w3-tag w3-indigo w3-round">Java</span> <span class="w3-tag w3-indigo w3-round">Sockets</span></p>
+            <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Nov 2016</h6>
+            <hr>
+        </div>
+        <div class="w3-container">
+            <h6 class="w3-opacity"><b>FormPlusPlus</b></h6>
+            <p>Developed an online forms application which lets the user create online forms and share it to others. The results of the forms are stored in the creator's Google Drive. The application also provides an analysis of the submissions to the creator. It has some of the missing features of Google forms (at that time) like File upload, conditional questions, etc.</p>
+            <p class="w3-text-grey">Tags: <span class="w3-tag w3-indigo w3-round">Java servlets</span> <span class="w3-tag w3-indigo w3-round">Online forms</span></p>
+            <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2015</h6>
+            <hr>
+        </div>
+        <div class="w3-container">
+            <h6 class="w3-opacity"><b>Program evaluator</b></h6>
+            <p>Developed a cloud based application which provides an interface for programming-competition. The front end is developed in JSP and Java servlets. It provides a code-editor, and an interface to turn in developed programs. The back-end is developed in C# .NET using <a href="https://sourceforge.net/projects/alchemi/" target="_blank">Alchemi</a>, a grid framework. This application downloads the programs submitted from web, compiles them and executes against provided testcases to give each program a score</p>
+            <p class="w3-text-grey">Tags: <span class="w3-tag w3-indigo w3-round">Grid</span> <span class="w3-tag w3-indigo w3-round">Cloud</span> <span class="w3-tag w3-indigo w3-round">C#</span> <span class="w3-tag w3-indigo w3-round">JSP</span> <span class="w3-tag w3-indigo w3-round">Java servlets</span></p>
+            <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Dec 2014</h6>
+            <hr>
+        </div>
+        <div class="w3-container">
+            <h6 class="w3-opacity"><b>Weather widget</b></h6>
+            <p>Developed a desktop widget in C# for displaying weather information. Used weather data provided by <a href="https://openweathermap.org/api" target="_blank">OpenWeatherMap</a>. It provides REST API endpoints. Presented the weather information with aero-effect for Windows 7</p>
+            <p class="w3-text-grey">Tags: <span class="w3-tag w3-indigo w3-round">Grid</span> <span class="w3-tag w3-indigo w3-round">C#</span> <span class="w3-tag w3-indigo w3-round">REST API</span> <span class="w3-tag w3-indigo w3-round">WPF</span></p>
+            <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sep 2014</h6>
+            <hr>
+        </div>
+        <div class="w3-container">
+            <h6 class="w3-opacity"><b>Weblog analysis</b></h6>
+            <p>Developed a map-reduce program for analysis of server logs. Created dummy server for getting logs. Extracted insights - IP hits, interested clients, etc - using the analysis</p>
+            <p class="w3-text-grey">Tags: <span class="w3-tag w3-indigo w3-round">Hadoop</span> <span class="w3-tag w3-indigo w3-round">Map-Reduce</span> <span class="w3-tag w3-indigo w3-round">Java</span></p>
+            <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2014</h6>
+            <hr>
+        </div>
+        <div class="w3-container">
+            <h6 class="w3-opacity"><b>Automatic Question Generator</b></h6>
+            <p>Developed a Java program which extracts gap-fill questions from a PDF based eBook, and creates a quiz. Also developed an Android app as an interface to solve the quiz. The program used principles of Natural Language Processing to extract questions and choices for answers, and uploads them over the server. The app downloads the questions from server, lets the user solve the quiz and uploads the score back to server.</p>
+            <p class="w3-text-grey">Tags: <span class="w3-tag w3-indigo w3-round">NLP</span> <span class="w3-tag w3-indigo w3-round">Java</span> <span class="w3-tag w3-indigo w3-round">Android</span></p>
+            <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Dec 2013</h6>
+            <br>
+        </div>
+    </div>
+</body>
+</html>
